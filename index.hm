@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color" content="#050609" />
+		<title>Você decide o futuro da IA</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="worksheet">
+			<header class="intro">
+				<p class="eyebrow">Tecnologia, escolhas e amanhã</p>
+				<h1>Você decide o futuro da IA</h1>
+				<p>Responda uma pergunta por vez e descubra quantas afirmações você fez.</p>
+			</header>
+
+			<section class="questions" id="question-area" aria-label="Perguntas sobre inteligência artificial" aria-live="polite"></section>
+
+			<footer>O futuro da IA também depende das escolhas que fazemos hoje.</footer>
+		</main>
+		<script src="script.js" defer></script>
+	</body>
+</html>
